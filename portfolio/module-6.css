@@ -121,8 +121,11 @@ main{
 
 /* about, */
 
-.section-title .explore{
+.section-title{
     color: #757575;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
     
 }
 .about{
@@ -131,6 +134,7 @@ main{
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
+    
    
 }
 .item-description{
@@ -152,3 +156,55 @@ main{
     border-radius: 5px;
 }
 
+/* resume section' */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+    columns: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text-center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+
+/* footer/ */
+footer{
+    margin: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+ footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px ;
+    border: none;
+    margin-bottom: 24px;
+ }
+   
