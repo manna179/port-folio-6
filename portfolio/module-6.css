@@ -1,0 +1,110 @@
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* nav styles */
+
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-2{
+     color: #474747;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+
+}
+
+
+/* middle step */
+
+.banner{
+    display: flex;
+}
+
+.banner .banner-welcome{
+    font-weight: bold;
+    font-family: open-sans,sans-serif;
+    font-size: 45px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description {
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+}
+.banner-img{
+    width: 584px;
+    height: 676px;
+
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+  
+
+/* header\ */
+
+.header{
+    background-image: url("../images/developer.png"), url('../images/header_bg.png') ;
+    background-repeat: no-repeat;
+    background-position:top left,bottom right;
+   
+}
